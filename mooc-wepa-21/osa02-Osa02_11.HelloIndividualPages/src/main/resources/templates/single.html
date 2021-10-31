@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Items</title>
+    </head>
+
+    <body>
+        <h1>Item</h1>
+        <p>
+            <span th:text="${item.name}">name</span>
+        </p>
+        <p>
+            <span th:text="${item.type}">type</span>
+        </p>
+        <p>
+            <a th:href="@{/}">Back to listing</a>
+        </p>
+    </body>
+</html>
